@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial scale=1">
+	<link rel="stylesheet" href="css/stayfit.css">	
+	<link rel="stylesheet" href="css/constant.css">	
+	<script type="text/javascript" src="js/scripts.js">
+	</script>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<title> Stay Fit!</title>
+</head>
+<body>
+	<div class="header">
+  <img src="https://res.cloudinary.com/www-klusster-com/image/upload/q_85,f_auto,w_1920/v1593620111/il4mwdwg8h1l750bi4c6.jpg" width=20% height=20% style="position:relative; float:left;">
+  <h1 style="text-align: left;">Stay Fit!</h1>
+  <h3 style="text-align: left;">Stay fit, get healthy swift!</h3>
+  <div style="margin-top: -150px" class="header-right">
+    <a href="stayfit.html"><i class="fas fa-heartbeat"></i><br>Home</a>
+    <a href="bmi.html"><i class='fab fa-accessible-icon'></i><br>Body Mass Index</a>
+    <a href="ideal.html" class="active"><i class='fas fa-user-md'></i><br>Ideal Height & Weight</a><br>
+  </div>
+</div>
+	<div>
+	<img id="image" src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-1/Scale_Slippers_Bathroom-1296x728-Header.jpg?w=1155&h=1528" width=100%>
+	</div>
+	<div style="padding-bottom: 10px;">
+		<h2>Your Ideal Height and Weight based on your Age is:</h2><br>
+		<div style ="color:black; font-style:bold">It's important to maintain an appropriate weight to height ratio based on your age.</div>
+		<div style ="color:black; font-style:bold">Enter your age and gender below to know your ideal ratio!</div>
+	</div>
+	<div>
+			<input type="number" name="Age" id="age"> 
+			<label>Age in years &emsp;</label>
+			<input type="radio" name="Gender" id="gender"> 
+			<label>Male</label>
+			<input type="radio" name="Gender" id="gender"> 
+			<label>Female</label><br>
+			<button style="margin-bottom: 10px;" id="calculateideal" onclick="ideal()">Find my ideal height and weight!</button><br>
+	</div>
+	<footer>
+		<div id="container">
+		<div style="margin-bottom: 20px; margin-top:10px;"> “It is health that is the real wealth, and not pieces of gold and silver.” – Mahatma Gandhi </div>
+		<div> “Keeping your body healthy is an expression of gratitude to the whole cosmos</div><div style="margin-bottom:20px;"> - the trees, the clouds, everything.” – Thich Nhat Hanh</div> 
+		<div> By Huma Hussain &amp Ishika Gupta &copy</div>
+		</div>
+	</footer>
+</body>
+</html>

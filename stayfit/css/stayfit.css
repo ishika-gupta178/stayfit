@@ -1,0 +1,77 @@
+#box
+{
+	margin-top:-10px;
+	padding-top:1%;
+	background-color: #e16c5c;
+	padding-bottom:1%;
+}
+.bmi
+{
+	padding-bottom:10px;
+}
+#image
+{
+	margin-top: 10px;
+	box-shadow: 0 0 40px black;
+ 	border: 2px solid #2e86ae;
+	margin-bottom:10px;
+}
+span
+{
+	color:black; 
+	font-style:bold; 
+	font-family: Comic Sans MS, Times, serif;
+	font-style: bold;
+	font-size: 40px;
+}
+hr 
+{
+	width:50%;
+	color:#e16c5c;
+}
+body
+{
+	text-align: center;
+	font-size:130%;
+	box-sizing: border-box;
+	font-family: "Book Antiqua","Times New Roman", Times, serif;
+	background-image: url("https://www.dphealthnow.com/wp-content/uploads/2016/05/blue-medical-background-1.jpg");
+}
+#background
+{
+	background-color: #e16c5c;
+	padding-top:10px;
+	margin-top:-20px;
+	padding-bottom: 15px;
+}
+form
+{
+	margin-top:30px;
+	color: black;
+}
+#click 
+{
+    border-radius: 4px;
+   	display: block;
+	box-sizing:border-box;
+	border-radius:25px;
+   	background-color: transparent;
+	cursor: pointer;
+    text-decoration:overline;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+button
+{
+	font-size: 20px;
+	margin-top:25px;
+	margin-bottom:10px;
+}
+h2
+{
+	margin-bottom: -20px;
+	color:black; 
+	font-style:bold; 
+	font-family: Ink Free,Times New Roman, Times, serif;
+	font-size: 40px;
+}
